@@ -17,5 +17,5 @@ function doWhileLoop(array) {
   }
   do {
     array.pop()
-  }
+  } while (maybeTrue() && array > 0)
 }
